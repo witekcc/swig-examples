@@ -4,7 +4,7 @@ package main
 /*
 #cgo LDFLAGS: -L. -lexample
 */
-import "./example" 
+import example "github.com/swig/swig/Examples/go/simplecgowrap" 
 import "fmt" 
 
 
@@ -18,7 +18,7 @@ func main() {
 	// Manipulate the Foo global variable
 
 	// Output its current value
-	fmt.Println("Foo =", example.GetFoo())
+	//fmt.Println("Foo =", example.GetFoo())
 
 	// Change its value
 	//example.SetFoo(3.1415926)

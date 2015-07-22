@@ -124,7 +124,7 @@ CXXSHARED=      @CXXSHARED@
 
 # This is used for building shared libraries with a number of C++
 # compilers.   If it doesn't work,  comment it out.
-@TRYLINKINGWITHCXX@
+#@TRYLINKINGWITHCXX@
 
 OBJS      = $(SRCS:.c=.@OBJEXT@) $(CXXSRCS:.cxx=.@OBJEXT@)
 
